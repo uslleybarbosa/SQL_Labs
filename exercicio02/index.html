@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Laboratório SQLi</title>
+</head>
+<body>
+  <h1>SQL Injection</h1>
+
+  <form action="produtos.php" method="get">
+    <label for="categoria">Escolha uma categoria:</label><br>
+    <input type="text" name="categoria" id="categoria" placeholder="Ex: carros"><br><br>
+    <button type="submit">Buscar Produtos</button>
+  </form>
+
+  <h4>Categorias disponíveis:</h4>
+  <ul>
+    <li>carros</li>
+    <li>celulares</li>
+    <li>Viagem</li>
+    <li>música</li>
+  </ul>
+
+  <p>
+    Tente descobrir quais dessas categorias já foram lançadas e quais ainda estão ocultas.<br>
+    Explore formas de burlar a segurança e acessar todas as informações disponíveis no banco de dados.
+  </p>
+</body>
+</html>
