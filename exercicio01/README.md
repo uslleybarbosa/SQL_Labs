@@ -20,6 +20,10 @@ Este laboratório simula uma página de login com falha de segurança, permitind
 
 ---
 
+### 🔥 O seu desafio e conseguir logar sem precisar digitar a senha
+
+---
+
 ## ⚠️ Vulnerabilidade
 
 O código PHP utiliza a seguinte consulta:
