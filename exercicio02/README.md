@@ -6,7 +6,7 @@ Este laboratório simula uma aplicação web que permite buscar produtos por cat
 ## 🎯 Objetivo do Lab
 
 - Explorar SQL Injection via parâmetros GET
-- Acessar produtos ocultos no banco (`released = 0`)
+- Acessar produtos ocultos no banco de dados
 - Treinar manipulação de filtros e enumeração de dados
 
 ## 📁 Arquivos
